@@ -37,7 +37,8 @@ const ops = tuple(
   'deleteOne',
   'deleteMany',
   'save',
-  'aggregate'
+  'aggregate',
+  'updateOne'
 );
 
 type Ops = (typeof ops)[number];
